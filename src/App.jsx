@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+import { Provider } from 'react-redux';
+import store from './hooks/store';
+import ShowUsers from './components/ShowUsers';
 
 function App() {
   return (
-    <div className="App">
-      App
-    </div>
+    <Provider store={store}>
+      <ShowUsers />
+    </Provider>
   );
 }
 
