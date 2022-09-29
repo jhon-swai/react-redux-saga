@@ -1,6 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable func-names */
-/* eslint-disable prefer-arrow-callback */
 import axios from 'axios';
 
 function getUsersApi() {
